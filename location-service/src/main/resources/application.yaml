@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: location-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/location_service?useSSL=false&serverTimezone=IST&allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8084
